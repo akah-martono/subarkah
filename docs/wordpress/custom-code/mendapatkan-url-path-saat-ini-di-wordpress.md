@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
 ---
-# Mendapatkan URL Path Saat Ini di WordPress
 
+# Mendapatkan URL Path Saat Ini di WordPress
 
 ## URL Full
 URL full adalah URL lengkap yang terdiri dari protokol (http/https), host (biasa disebut domain), path, dan query string. URL full ini bisa anda lihat di address bar pada browser.

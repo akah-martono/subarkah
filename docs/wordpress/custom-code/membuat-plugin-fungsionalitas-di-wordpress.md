@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # Membuat Plugin Fungsionalitas di WordPress
 
 Membuat plugin fungsionalitas adalah cara alternatif dari membuat child theme untuk menambah fungsionalitas pada website bagi pengguna builder themeless seperti Breakdance atau pengguna theme yang belum bisa dibuatkan child themenya seperti Spectra one.
