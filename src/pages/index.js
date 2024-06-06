@@ -32,7 +32,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={"Development & Sys Admin"}
+      title={"Web Development & Sys Admin"}
       description="Tulisan Seputar Web Development dan Sys Admin">
       <HomepageHeader />
       <main>
