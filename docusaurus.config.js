@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Blog Akah',
-  tagline: 'Sekedar Ada di Internet',
+  title: 'Blog Pribadi Akah',
+  tagline: 'Tulisan Seputar Web Development dan Sys Admin',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
