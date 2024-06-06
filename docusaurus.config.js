@@ -69,7 +69,10 @@ const config = {
               const items = await defaultCreateSitemapItems(rest);
               return items.filter((item) => !item.url.includes('/page/'));
             },
-          },        
+        },
+        googleTagManager: {
+            containerId: 'GTM-TGFHP65M',
+        },        
       })
     ],
   ],
