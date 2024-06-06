@@ -1,3 +1,7 @@
+wordpress:
+  label: WordPress
+  permalink: /wordpress
+  description: All About WordPress
 facebook:
   label: Facebook
   permalink: /facebook

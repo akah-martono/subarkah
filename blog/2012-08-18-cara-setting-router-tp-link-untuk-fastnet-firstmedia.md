@@ -3,10 +3,10 @@ slug: cara-setting-router-tp-link-untuk-fastnet-firstmedia
 title: Cara Setting Router TP-Link untuk FastNet (FirstMedia)
 authors:
   - name: Akah Martono
-    title: Owner of Subarkah.Com
-    url: https://www.facebook.com/akah.martono
-    image_url: https://gravatar.com/avatar/cb2c9398b5a05b935c637a50316acf4937c5488f7f4513cb75cdb2f4374a8fbf
-tags: [greetings]
+    title: Ayah 2 anak
+    url: https://github.com/akah-martono
+    image_url: https://avatars.githubusercontent.com/u/143365979?v=4
+tags: [wordpress]
 ---
 
 Pas mudik tahun ini ternyata di rumah udah pasang internet dari firstmedia, jadi senang karena bisa ol di rumah tanpa mengurangi quota telkomsel flash. Tapi sayang harus nyolok kabel, padahal yg pakai lebih dari 1 orang dan mau pakai untuk android juga. singkat cerita sore ini langsung ke TangCity buat cari acces point (halah jadi kepanjangan).
