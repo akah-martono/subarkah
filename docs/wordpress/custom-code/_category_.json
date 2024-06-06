@@ -2,6 +2,7 @@
   "label": "Custom Code",
   "position": 1,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Custom Code WordPress"
   }
 }
