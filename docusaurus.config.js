@@ -29,13 +29,10 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
-    // defaultLocale: 'id',
-    // locales: ['id', 'en'],
-
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+//   i18n: {
+//     // defaultLocale: 'id',
+//     // locales: ['id', 'en'],
+//   },
 
   presets: [
     [
@@ -84,10 +81,10 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },          
+        //   {
+        //     type: 'localeDropdown',
+        //     position: 'right',
+        //   },          
           {
             href: 'https://github.com/akah-martono',
             label: 'GitHub',
