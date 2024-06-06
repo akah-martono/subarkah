@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.WordPress": {
+    "message": "WordPress",
+    "description": "The label for category WordPress in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.WordPress.link.generated-index.description": {
+    "message": "Tutorial Seputar WordPress",
+    "description": "The generated-index page description for category WordPress in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Custom Code": {
+    "message": "Custom Code",
+    "description": "The label for category Custom Code in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Custom Code.link.generated-index.description": {
+    "message": "Custom Code WordPress",
+    "description": "The generated-index page description for category Custom Code in sidebar tutorialSidebar"
+  }
+}

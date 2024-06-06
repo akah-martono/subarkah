@@ -4,5 +4,8 @@
   "link": {
     "type": "generated-index",
     "description": "Custom Code WordPress"
-  }
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }  
 }
