@@ -1,0 +1,11 @@
+{
+  "label": "LEMP Stack for WordPress",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Linux Nginx MariaDB & PHP Stack for WordPress"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }  
+}
