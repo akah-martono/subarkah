@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'akah-martono', // Usually your GitHub org/user name.
+  projectName: 'subarkah', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -105,6 +105,16 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://www.upwork.com/freelancers/akahmartono',
+            label: 'Upwork',
+            position: 'right',
+          },
+          {
+            href: 'https://wa.me/62818700561',
+            label: 'Contact',
+            position: 'right',
+          },          
         ],
       },
       footer: {
