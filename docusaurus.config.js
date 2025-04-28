@@ -150,7 +150,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Subarkah.Com`,
+        copyright:  `Copyright © ${new Date().getFullYear()} Subarkah.Com`,
       },
       prism: {
         theme: prismThemes.github,
