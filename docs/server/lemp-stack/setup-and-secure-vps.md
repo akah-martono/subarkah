@@ -5,7 +5,7 @@ sidebar_position: 1
 # Setup and Secure VPS
 
 ## Setup Timezone
-Menyesuaikan waktu server dengan timezone kita:
+Menyesuaikan waktu server dengan timezone kita
 ```bash
 sudo dpkg-reconfigure tzdata
 ```
@@ -29,13 +29,13 @@ sudo apt autoremove
 sudo reboot now
 ```
 
-## Install ufw
-Menginstall Uncomplicated Firewall
+## Install Firewall
+Menginstall ufw (Uncomplicated Firewall)
 ```bash
 sudo apt install ufw
 ```
 
-## Allow the ports for SSH (22), HTTP (80), and HTTPS (443)
+## Allow the Ports for SSH (22), HTTP (80), and HTTPS (443)
 Mengijinkan port 22 (SSH), 80 (HTTP), dan 443 (HTTPS)
 ```bash
 sudo ufw allow ssh
@@ -43,19 +43,19 @@ sudo ufw allow http
 sudo ufw allow https
 ```
 
-## Review rules
+## Review Firewalls Rules
 Review rules yang telah dibuat
 ```bash
 sudo ufw show added
 ```
 
-## Enable rules
+## Enable Rules
 Mengaktifkan rules yang telah dibuat
 ```bash
 sudo ufw enable
 ```
 
-## Confirm that the new rules are active
+## Confirm That the New Rules Are Active
 Memastikan rules aktif
 ```bash
 sudo ufw status verbose

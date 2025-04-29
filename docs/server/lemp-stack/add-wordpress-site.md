@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Add WordPress Site
 
+Di tutorial ini kita akan menambahkan website dengan domain mitra.web.id
+
 ## Create User
 Buat user untuk website yang ingin kita buat
 ```bash
@@ -30,7 +32,7 @@ sudo chown -R mitra:mitra /home/mitra
 Ganti _mitra_ dengan user yang ingin dibuat
 Ganti _domain.com_ dengan domai yang ingin digunakan
 
-## Remove/Rename default PHP-FPM Pool
+## Remove/Rename Default PHP-FPM Pool
 
 Jika masih ada default pool, dihapus/rename saja
 ```bash
@@ -102,7 +104,7 @@ Grant privilege:
 GRANT ALL PRIVILEGES ON mitra_db.* TO 'mitra_user'@'localhost';
 ```
 
-FLush/refresh privileges:
+Flush/refresh privileges:
 ```sql
 FLUSH PRIVILEGES;
 ```
@@ -130,7 +132,7 @@ Download WordPress terbaru
 wp core download
 ```
 
-Download WordPress terbaru
+Konfigure database
 ```bash
 wp core config --dbname=mitra_db --dbuser=mitra_user --dbpass='Workshop@WPBogor2025'
 ```

@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/subarkah-blog.svg').default,
     description: (
       <>
-        Tulisan dan opini pribadi, silahkan baca tapi jangan diambil hati.
+        Tulisan dan opini pribadi, silahkan dibaca tapi jangan diambil hati.
       </>
     ),
   },

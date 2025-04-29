@@ -109,12 +109,7 @@ const config = {
             href: 'https://www.upwork.com/freelancers/akahmartono',
             label: 'Upwork',
             position: 'right',
-          },
-          {
-            href: 'https://wa.me/62818700561',
-            label: 'Contact',
-            position: 'right',
-          },          
+          },        
         ],
       },
       footer: {
