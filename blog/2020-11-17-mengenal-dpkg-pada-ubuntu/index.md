@@ -1,6 +1,7 @@
 ---
 slug: mengenal-dpkg-pada-pada-ubuntu
 title: Mengenal DPKG pada Ubuntu 18.04
+description: DPKG merupakan pengelola paket (package manager) untuk OS Linux berbasis Debian yang salah satu turunannya adalah ubuntu.
 authors: akah
 tags: [linux]
 ---

@@ -1,6 +1,7 @@
 ---
 slug: perlukah-microsite-menggunakan-domain-yang-berbeda
 title: Perlukah Microsite Menggunakan Domain yang Berbeda
+description: Kampanye pakai microsite sebaiknya menggunakan domain yang berbeda atau enggak ya? Jawabannya adalah disesuaikan kebutuhan, berikut adalah beberapa pertimbangan / alasannya
 authors: akah
 tags: [digital marketing]
 ---
