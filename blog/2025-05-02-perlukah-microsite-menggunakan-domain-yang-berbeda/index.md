@@ -19,7 +19,7 @@ Untuk kerja sama dengan brand lain, microsite bersama dengan domain netral bisa 
 
 ## 3 Alasan Domain yang Sama Lebih Baik:
 1. Branding Utama Lebih Kuat  
-Jika kamu ingin meningkatkan kekuatan dan konsistensi brand utama, lebih baik gunakan subdomain atau bahkan subfolder.
+Jika kita ingin meningkatkan kekuatan dan konsistensi brand utama, lebih baik gunakan subdomain atau bahkan subfolder.
 
 2. Pertimbangan SEO & Authority  
 Google lebih menyukai konten yang terpusat pada satu domain dengan otoritas tinggi. Terlalu banyak microsite bisa memecah kekuatan SEO kita.
