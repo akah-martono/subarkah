@@ -5,7 +5,8 @@ authors: akah
 tags: [digital marketing]
 ---
 ![Pilih Domain](./pilih-domain.jpg)
-Kampanye pakai microsite sebaiknya menggunakan domain yang berbeda atau enggak ya?<!--truncate-->
+Kampanye pakai microsite sebaiknya menggunakan domain yang berbeda atau enggak ya?<!--truncate--> Jawabannya adalah disesuaikan kebutuhan, berikut adalah beberapa pertimbangan / alasannya:
+
 ## 3 Alasan Perlu Beda Domain:
 1. Kampanye Marketing Spesifik / Musiman  
 Jika kita menjalankan kampanye besar yang terpisah dari brand utama, microsite dengan domain tersendiri bisa membantu fokus dan branding lebih kuat.
