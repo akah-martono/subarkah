@@ -7,23 +7,23 @@ tags: [digital marketing]
 ![Pilih Domain](./pilih-domain.jpg)
 Kampanye pakai microsite sebaiknya menggunakan domain yang berbeda atau enggak ya?<!--truncate-->
 ## 3 Alasan Perlu Beda Domain:
-1. Kampanye Marketing Spesifik / Musiman
+1. Kampanye Marketing Spesifik / Musiman  
 Jika kita menjalankan kampanye besar yang terpisah dari brand utama, microsite dengan domain tersendiri bisa membantu fokus dan branding lebih kuat.
 
- 2. Target Audiens yang Berbeda
+ 2. Target Audiens yang Berbeda  
 Jika ingin menyasar segmen pasar yang berbeda dari brand utama, domain berbeda bisa menghindari kebingungan dan memberikan fleksibilitas komunikasi.
 
-3. Kolaborasi Brand atau Partnership
+3. Kolaborasi Brand atau Partnership  
 Untuk kerja sama dengan brand lain, microsite bersama dengan domain netral bisa terlihat lebih profesional dan adil.
 
 ## 3 Alasan Domain yang Sama Lebih Baik:
-1. Branding Utama Lebih Kuat
+1. Branding Utama Lebih Kuat  
 Jika kamu ingin meningkatkan kekuatan dan konsistensi brand utama, lebih baik gunakan subdomain atau bahkan subfolder.
 
-2. Pertimbangan SEO & Authority
+2. Pertimbangan SEO & Authority  
 Google lebih menyukai konten yang terpusat pada satu domain dengan otoritas tinggi. Terlalu banyak microsite bisa memecah kekuatan SEO kita.
 
-3. Manajemen Lebih Simpel
+3. Manajemen Lebih Simpel  
 Mengelola banyak domain itu repot (update konten, keamanan, tracking, dll). Kalau bisa disatukan, pengelolaan lebih efisien.
 
 
