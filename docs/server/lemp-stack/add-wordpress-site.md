@@ -20,8 +20,8 @@ sudo usermod -a -G mitra www-data
 ## Create Folder
 Buat folder untuk website yang ingin kita buat
 ```bash
-sudo mkdir -p /home/mitra/domain.com/public
-sudo mkdir -p /home/mitra/domain.com/logs
+sudo mkdir -p /home/mitra/mitra.web.id/public
+sudo mkdir -p /home/mitra/mitra.web.id/logs
 ```
 
 Jadikan user yang kita buat sebelumnya sebagai pemilik folder

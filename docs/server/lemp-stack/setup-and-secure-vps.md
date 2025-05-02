@@ -4,6 +4,12 @@ sidebar_position: 1
 
 # Setup and Secure VPS
 
+## Set Hostname
+Mengubah nama host server kita
+```bash
+sudo hostnamectl hostname demo
+```
+
 ## Setup Timezone
 Menyesuaikan waktu server dengan timezone kita
 ```bash
