@@ -5,13 +5,13 @@ sidebar_position: 2
 # Install Web Server
 
 ## Install nginx
-Gunakan repo nginx dari Ondřej Surý:
+Gunakan repo nginx dari Ondřej Surý
 ```bash
 sudo add-apt-repository ppa:ondrej/nginx -y
 sudo apt update
 ```
 
-Install nginx:
+Install nginx
 ```bash
 sudo apt install nginx -y
 ```
@@ -23,23 +23,23 @@ nginx -v
 ## Configure nginx
 Docs: https://nginx.org/en/docs/http/ngx_http_core_module.html
 
-Periksa CPU pada server (perhatikan jumlah corenya):
+Periksa CPU pada server (perhatikan jumlah corenya)
 ```bash
 lscpu
 ```
 
-Melihat batas jumlah file yang dapat dibuka / open file limit:
+Melihat batas jumlah file yang dapat dibuka / open file limit
 ```bash
 ulimit -n
 ```
 
-Buka nginx.conf:
+Buka nginx.conf
 ```bash
 sudo nano /etc/nginx/nginx.conf
 ```
 
 ### main Context
-Sesuaikan worker_processes (maksimal sejumlah CPU core):
+Sesuaikan worker_processes (maksimal sejumlah CPU core)
 ```ssh_config
 user www-data; 
 worker_processes 1;
@@ -57,7 +57,7 @@ multi_accept on;
 
 ### http Context
 #### Basic Settings
-Default keepalive_timeout terlalu lama untuk WordPress yaitu 75s, set keepalive_timeout 15s:
+Default keepalive_timeout terlalu lama untuk WordPress yaitu 75s, set keepalive_timeout 15s
 ```ssh_config
 keepalive_timeout 15s;
 ```
@@ -70,13 +70,13 @@ sendfile on;
 tcp_nopush on;
 ```
 
-Set types_hash_max_size dan client_max_body_size: 
+Set types_hash_max_size dan client_max_body_size
 ```ssh_config
 types_hash_max_size 2048;    
 client_max_body_size 64m;
 ```
 
-Agar tidak menampilkan informasi tentang nginx di response header, set server_tokens off: 
+Agar tidak menampilkan informasi tentang nginx di response header, set server_tokens off
 ```ssh_config
 server_tokens off;
 ```
@@ -112,17 +112,17 @@ include /etc/nginx/sites-enabled/*;
 ```
 
 ## Restart nginx
-Periksa apakah konfigurasi yang kita ubah aman:
+Periksa apakah konfigurasi yang kita ubah aman
 ```bash
 sudo nginx -t
 ```
-Jika aman, restart:
+Jika aman, restart
 ```bash
 sudo service nginx restart
 ```
 
 ## Hasil Perubahan
-Berikut isi nginx.conf setelah perubahan yang kita lakukan:
+Berikut isi nginx.conf setelah perubahan yang kita lakukan
 ```ssh_conf
 user www-data;
 worker_processes 1;
@@ -135,14 +135,7 @@ events {
         multi_accept on;
 }
 
-http {
-    
-    # webp map
-    map $http_accept $webp_suffix{
-        default "";
-        "~*webp" ".webp";
-    }
-
+http {    
     ##
     # Basic Settings
     ##
@@ -191,7 +184,7 @@ http {
 
 ## Install Certbot
 
-Install Certbot beserta plugin untuk nginx:
+Install Certbot beserta plugin untuk nginx
 ```bash
 sudo apt install software-properties-common
 sudo add-apt-repository universe
@@ -200,13 +193,13 @@ sudo apt install certbot python3-certbot-nginx
 ```
 
 ## Install PHP 8.3
-Gunakan repo PHP 8.3 dari Ondřej Surý:
+Gunakan repo PHP 8.3 dari Ondřej Surý
 ```bash
 sudo add-apt-repository ppa:ondrej/php -y
 sudo apt update
 ```
 
-Install PHP 8.3 beserta paket-paket yang dibutuhkan beserta:
+Install PHP 8.3 beserta paket-paket yang dibutuhkan beserta
 ```bash
 sudo apt install php8.3-fpm php8.3-common php8.3-mysql \
 php8.3-xml php8.3-intl php8.3-curl php8.3-gd \
@@ -215,7 +208,7 @@ php8.3-mbstring php8.3-opcache php8.3-redis \
 php8.3-soap php8.3-zip -y
 ```
 
-Konfirmasi bahwa PHP 8.3 telah terinstal:
+Konfirmasi bahwa PHP 8.3 telah terinstal
 ```bash
 php-fpm8.3 -v
 ```
@@ -225,23 +218,23 @@ php-fpm8.3 -v
 sudo apt install mariadb-server
 ```
 
-Konfirmasi bahwa MariaDB telah terinstal:
+Konfirmasi bahwa MariaDB telah terinstal
 ```bash
 mariadb --version
 ```
 
-Enable the MariaDB system service to start at boot time:
+Enable the MariaDB system service to start at boot time
 ```bash
 sudo systemctl enable mariadb
 ```
 
-Start MariaDB on your server:
+Start MariaDB on your server
 ```bash
 sudo systemctl start mariadb
 ```
 
 
-View the MariaDB service status to verify that it's running on your server:
+View the MariaDB service status to verify that it's running on your server
 ```bash
 sudo systemctl status mariadb
 ```
@@ -250,7 +243,7 @@ sudo systemctl status mariadb
 ```bash
 sudo mysql_secure_installation
 ```
-Isi prompt dengan jawaban berikut:
+Isi prompt dengan jawaban berikut
 - Enter current password for root (enter for none): 
     - [ENTER]
 - Switch to unix_socket authentication [Y/n]
@@ -280,23 +273,23 @@ masukkan password yang sudah dibuat sebelumnya
 ## Download wp-cli.phar
 Docs: https://make.wordpress.org/cli/handbook/guides/installing/
 
-Download wp-cli.phar menggunakan curl:
+Download wp-cli.phar menggunakan curl
 ```bash
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 ```
 
-Periksa apakah bisa jalan:
+Periksa apakah bisa jalan
 ```bash
 php wp-cli.phar --info
 ```
 
-Jadikan executable dan pindahkan ke PATH (bin) agar bisa dijalankan dari mana saja:
+Jadikan executable dan pindahkan ke PATH (bin) agar bisa dijalankan dari mana saja
 ```bash
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 ```
 
-Test hasilnya:
+Test hasilnya
 ```bash
 wp --info
 ```
