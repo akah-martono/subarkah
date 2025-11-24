@@ -110,8 +110,8 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://www.upwork.com/freelancers/akahmartono',
-            label: 'Upwork',
+            href: 'https://www.mitra.web.id/',
+            label: 'Mitra Website',
             position: 'right',
           },        
         ],
