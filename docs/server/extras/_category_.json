@@ -1,0 +1,11 @@
+{
+  "label": "LEMP - Extras",
+  "position": 99,
+  "link": {
+    "type": "generated-index",
+    "description": "Extra tutorial for LEMP WordPress"
+  },
+  "customProps": {
+    "description": "Extra tutorial for LEMP WordPress"
+  }  
+}

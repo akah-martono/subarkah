@@ -199,7 +199,7 @@ sudo add-apt-repository ppa:ondrej/php -y
 sudo apt update
 ```
 
-Install PHP 8.3 beserta paket-paket yang dibutuhkan beserta
+Install PHP 8.3 beserta paket-paket yang dibutuhkan oleh WordPress
 ```bash
 sudo apt install php8.3-fpm php8.3-common php8.3-mysql \
 php8.3-xml php8.3-intl php8.3-curl php8.3-gd \

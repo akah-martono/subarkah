@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Blog Pribadi Akah',
+  title: 'Blog Pribadi Kang Akah',
   tagline: 'Tulisan Seputar Web Development dan Sys Admin',
   favicon: 'img/favicon.ico',
 
@@ -24,7 +24,11 @@ const config = {
   projectName: 'subarkah', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // ⬅️ pindahan dari root
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
